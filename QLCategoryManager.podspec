@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "QLCategoryManager"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A category Library using OC for iOS"
 
   # This description is used to generate tags and improve search results.

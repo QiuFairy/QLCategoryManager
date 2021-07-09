@@ -1,5 +1,5 @@
 //
-//  UIButton+TimeInterval.h
+//  UIButton+QLTimeInterval.h
 //  DEMO1
 //
 //  Created by qiu on 2018/11/5.
@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UIButton (TimeInterval)
+@interface UIButton (QLTimeInterval)
 /* 防止button重复点击，设置间隔 */
-@property (nonatomic, assign) NSTimeInterval mm_acceptEventInterval;
+@property (nonatomic, assign) NSTimeInterval ql_acceptEventInterval;
 @end
 
 NS_ASSUME_NONNULL_END
